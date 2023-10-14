@@ -83,6 +83,8 @@ Example 1 - Square Room (Swedish Commands):
 Room: A 5x5 square room, starting at (1, 2).
 Command String: 'HGHGGHGHG'
 Expected Result: '1 3 N'
+
+
 Example 2 - Circular Room (English Commands):
 
 Room: A circular room with a radius of 10, starting at (0, 0).
