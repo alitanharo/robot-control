@@ -27,6 +27,7 @@ class Room {
         this.orgio = orgio;
     }
 
+    //In this method, we simply validate whether the point is within the room or not, without taking into account the robot's size. This is an uncertain approach; therefore, it is advisable to consider updating this method after our discussion.
     isInside(x, y) {
         switch (this.isCircular) {
             case true:
@@ -37,6 +38,8 @@ class Room {
                 throw new Error('Invalid room type!');
         }
     }
+
+    
 
     isInsideCircular(x, y) {
         const distance = Math.sqrt(x * x + y * y);
@@ -54,6 +57,7 @@ class Room {
             return Math.abs(x) <= this.width && Math.abs(y) <= this.height;
         }
     }
+
 
 
 
