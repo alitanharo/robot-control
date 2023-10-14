@@ -45,15 +45,13 @@ class Robot {
 
     processCommand(command) {
         switch (command) {
-            case 'V':
+
             case 'L':
                 this.turnLeft();
                 break;
-            case 'H':
             case 'R':
                 this.turnRight();
                 break;
-            case 'G':
             case 'F':
                 this.moveForward();
                 break;
